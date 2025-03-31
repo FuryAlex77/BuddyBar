@@ -2,33 +2,32 @@
 
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="48sp"
-    android:orientation="horizontal"
-    app:layout_constraintTop_toTopOf="parent"
-    tools:ignore="MissingConstraints"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".BeerPage">
 
-    <Button
-        android:id="@+id/back_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="64sp"
-        android:gravity="center"
-        android:text="Back"
-        tools:ignore="HardcodedText" />
-
     <TextView
-        android:layout_width="0dp"
-        android:layout_height="64sp"
-        android:layout_weight="1"
-        android:gravity="center"
+        android:id="@+id/page_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="BEER"
-        android:textSize="32sp"
-        tools:ignore="HardcodedText" />
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <SearchView
+        android:id="@+id/search_beer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:queryHint="Search drinks..."
+        android:iconifiedByDefault="false"
+        android:background="@android:color/white"
+        android:elevation="4dp"
+        android:padding="8dp"/>
 
 </LinearLayout>
 
