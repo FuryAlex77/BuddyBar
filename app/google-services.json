@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "847851096087",
+    "project_id": "buddybar-5c36c",
+    "storage_bucket": "buddybar-5c36c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847851096087:android:10b601dafcdb1082fe3452",
+        "android_client_info": {
+          "package_name": "com.example.buddybar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFck42vtzd7FxNrtNsxNy7Dv0s9r2XWwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
