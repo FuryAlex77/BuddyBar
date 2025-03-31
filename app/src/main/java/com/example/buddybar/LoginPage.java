@@ -45,6 +45,7 @@ public class LoginPage extends AppCompatActivity {
             mAuth.signInWithEmailAndPassword(emailText, passwordText)
                     .addOnCompleteListener(task -> {
                         if (task.isSuccessful()) {
+
                             Toast.makeText(LoginPage.this, "Login Successful", Toast.LENGTH_SHORT).show();
                             // Navigate to next screen
                             startActivity(new Intent(LoginPage.this, HomePage.class));

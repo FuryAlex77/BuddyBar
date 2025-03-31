@@ -7,4 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    <color name="search_background_color">#F2F2F2</color> <!-- Light gray -->
+    <color name="search_text_color">#333333</color> <!-- Dark gray -->
+    <color name="search_hint_color">#999999</color> <!-- Medium gray -->
+    <color name="search_icon_color">#666666</color>
+
 </resources>
