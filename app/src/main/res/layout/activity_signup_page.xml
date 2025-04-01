@@ -14,6 +14,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIGNUP"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#E00740"
+            android:layout_marginBottom="64sp"
+            tools:ignore="HardcodedText" />
+
         <EditText
             android:id="@+id/email"
             android:layout_width="match_parent"
@@ -32,6 +42,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sign Up" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,14 +16,16 @@
         android:text="BEER"
         android:textAlignment="center"
         android:textSize="48sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="#7BE65A"
+        tools:ignore="HardcodedText" />
 
     <SearchView
         android:id="@+id/search_beer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:queryHint="Search drinks..."
+        android:queryHint="Search beers..."
         android:iconifiedByDefault="false"
         android:background="@android:color/white"
         android:elevation="4dp"

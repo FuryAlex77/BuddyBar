@@ -1,5 +1,6 @@
 package com.example.buddybar;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.widget.Button;
@@ -44,6 +45,7 @@ public class SignupPage extends AppCompatActivity {
                     .addOnCompleteListener(task -> {
                         if (task.isSuccessful()) {
                             Toast.makeText(SignupPage.this, "Signup Successful", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(SignupPage.this, LoginPage.class));
                             finish();
                         } else {
                             Toast.makeText(SignupPage.this, "Signup Failed", Toast.LENGTH_SHORT).show();
